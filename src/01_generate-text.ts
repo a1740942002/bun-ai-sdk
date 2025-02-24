@@ -8,4 +8,4 @@ const result = await generateText({
   prompt: 'Why is the sky blue?'
 })
 
-console.log(result)
+console.log(result.text)
