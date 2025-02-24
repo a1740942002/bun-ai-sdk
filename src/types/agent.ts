@@ -1,10 +1,10 @@
-import { type Tool } from 'ai'
+import { type LanguageModelV1, type Tool } from 'ai'
 
 export type AgentConfig = {
   name: string
   systemPrompt: string
-  capabilities: string
   tools: Record<string, Tool>
+  model: LanguageModelV1
   maxSteps?: number
 }
 
