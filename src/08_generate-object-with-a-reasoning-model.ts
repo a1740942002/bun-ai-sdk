@@ -5,7 +5,7 @@ import { z } from 'zod'
 
 async function main() {
   const { text: rawOutput } = await generateText({
-    model: openai('o3-mini'),
+    model: openai('o1'),
     prompt:
       'Predict the top 3 largest city by 2050. For each, return the name, the country, the reason why it will on the list, and the estimated population in millions.'
   })
