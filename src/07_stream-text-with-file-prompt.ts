@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/stream-text-with-file-prompt
+
 import { openai } from '@ai-sdk/openai'
 import { streamText } from 'ai'
 import 'dotenv/config'

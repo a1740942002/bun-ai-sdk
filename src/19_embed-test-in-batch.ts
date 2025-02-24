@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/embed-text-batch
+
 import { openai } from '@ai-sdk/openai'
 import { embedMany } from 'ai'
 import 'dotenv/config'

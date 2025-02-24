@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/generate-text-with-image-prompt
+
 import { generateText } from 'ai'
 import { openai } from '@ai-sdk/openai'
 

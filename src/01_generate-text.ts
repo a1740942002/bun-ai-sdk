@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/generate-text
+
 import { generateText } from 'ai'
 import { openai } from '@ai-sdk/openai'
 

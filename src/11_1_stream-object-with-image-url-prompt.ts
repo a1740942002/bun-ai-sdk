@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/stream-object-with-image-prompt
+
 import { streamObject } from 'ai'
 import { openai } from '@ai-sdk/openai'
 import { z } from 'zod'

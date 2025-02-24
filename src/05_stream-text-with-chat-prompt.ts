@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/stream-text-with-chat-prompt
+
 import { streamText } from 'ai'
 import { openai } from '@ai-sdk/openai'
 

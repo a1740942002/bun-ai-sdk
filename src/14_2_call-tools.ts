@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/call-tools
+
 import { openai } from '@ai-sdk/openai'
 import { generateText, tool } from 'ai'
 import dotenv from 'dotenv'

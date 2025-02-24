@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/intercept-fetch-requests
+
 import { generateText } from 'ai'
 import { createOpenAI } from '@ai-sdk/openai'
 

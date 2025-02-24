@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/retrieval-augmented-generation
+
 import fs from 'fs'
 import path from 'path'
 import dotenv from 'dotenv'

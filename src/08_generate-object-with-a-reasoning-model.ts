@@ -1,3 +1,5 @@
+// https://sdk.vercel.ai/cookbook/node/generate-object-reasoning
+
 import { openai } from '@ai-sdk/openai'
 import { generateObject, generateText } from 'ai'
 import 'dotenv/config'
