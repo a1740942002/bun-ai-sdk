@@ -1,4 +1,8 @@
-// https://sdk.vercel.ai/cookbook/node/retrieval-augmented-generation
+/**
+ * @reference
+ * https://sdk.vercel.ai/cookbook/node/retrieval-augmented-generation
+ * https://python.langchain.com/docs/tutorials/rag/
+ */
 
 import fs from 'fs'
 import path from 'path'
