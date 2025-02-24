@@ -2,6 +2,7 @@ import { streamText } from 'ai'
 import { isAddress } from 'viem'
 import { balanceAgent } from './agents/balance-agent'
 
+// 0xEEc97E8Fd136EcF94eA15a9D511210Ec21CB4008
 async function main() {
   const address = process.argv[2]
 
