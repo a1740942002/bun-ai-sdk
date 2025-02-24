@@ -47,7 +47,9 @@ async function main() {
   })
 
   /**
-   * I have always been fascinated by creating new things. Before entering college, I devoted most of my free time to painting, primarily landscapes and portraits. My passion for art extended to digital design, which I also explored during my high school years. Additionally, I developed a keen interest in wildlife photography after a family vacation to a national park. This newfound hobby taught me patience and attention to detail, as I waited for hours to capture the perfect shot. Upon graduating high school, I decided to pursue a degree in environmental science. During college, I participated in several research projects focusing on sustainable resource management. I also joined the university's photography club, where I learned different techniques and collaborated with peers on various creative projects. Looking back, I believe my artistic background played a crucial role in shaping my perspective on problem-solving and innovation.
+   * Before entering college, I devoted most of my free time to painting, primarily landscapes and portraits
+During college, I participated in several research projects focusing on sustainable resource management
+My passion for art extended to digital design, which I also explored during my high school years
    */
   const context = db
     .map((item) => ({
