@@ -1,7 +1,8 @@
 /**
  * @reference
- * https://sdk.vercel.ai/cookbook/node/retrieval-augmented-generation
- * https://python.langchain.com/docs/tutorials/rag/
+ * Vercel AI SDK: https://sdk.vercel.ai/cookbook/node/retrieval-augmented-generation
+ * LangChain: https://python.langchain.com/docs/tutorials/rag/
+ * Google Cloud: https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=zh_tw
  */
 
 import fs from 'fs'
