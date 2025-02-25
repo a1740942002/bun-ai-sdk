@@ -19,12 +19,8 @@ const result = await streamText({
         temperature: 72 + Math.floor(Math.random() * 21) - 10
       })
     })
-    // cityAttractions: tool({
-    //   parameters: z.object({ city: z.string() })
-    // })
   },
-  prompt:
-    'What is the weather in San Francisco and what attractions should I visit?'
+  prompt: 'What is the weather in San Francisco?'
 })
 
 for await (const textPart of result.textStream) {
