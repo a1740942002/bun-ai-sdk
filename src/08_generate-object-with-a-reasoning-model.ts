@@ -28,7 +28,9 @@ async function main() {
     output: 'array'
   })
 
+  console.log('--------------------------------')
   console.log(object)
+  console.log('--------------------------------')
 }
 
 main().catch(console.error)

@@ -11,7 +11,10 @@ const result = streamText({
   prompt: 'Invent a new holiday and describe its traditions.'
 })
 
+console.log('--------------------------------')
+
 for await (const textPart of result.textStream) {
-  // console.log(textPart)
   process.stdout.write(textPart)
 }
+
+console.log('\n--------------------------------')

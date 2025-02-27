@@ -14,8 +14,10 @@ async function main() {
     ]
   })
 
+  console.log('--------------------------------')
   console.log(embeddings)
   console.log(usage)
+  console.log('--------------------------------')
 }
 
 main().catch(console.error)

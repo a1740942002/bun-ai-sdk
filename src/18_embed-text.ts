@@ -10,8 +10,10 @@ async function main() {
     value: 'sunny day at the beach'
   })
 
+  console.log('--------------------------------')
   console.log(embedding)
   console.log(usage)
+  console.log('--------------------------------')
 }
 
 main().catch(console.error)

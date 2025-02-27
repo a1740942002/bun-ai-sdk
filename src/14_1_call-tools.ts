@@ -23,6 +23,10 @@ const result = await streamText({
   prompt: 'What is the weather in San Francisco?'
 })
 
+console.log('--------------------------------')
+
 for await (const textPart of result.textStream) {
   process.stdout.write(textPart)
 }
+
+console.log('\n--------------------------------')

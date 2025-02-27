@@ -12,11 +12,14 @@ const result = streamText({
 })
 
 const reader = result.textStream.getReader()
+console.log('--------------------------------')
 
 while (true) {
   const { done, value } = await reader.read()
   if (done) {
     break
   }
-  console.log(value)
+  process.stdout.write(value)
 }
+
+console.log('\n--------------------------------')

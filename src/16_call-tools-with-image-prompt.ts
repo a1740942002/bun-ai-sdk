@@ -36,6 +36,10 @@ const result = await streamText({
   }
 })
 
+console.log('--------------------------------')
+
 for await (const textPart of result.textStream) {
   process.stdout.write(textPart)
 }
+
+console.log('\n--------------------------------')

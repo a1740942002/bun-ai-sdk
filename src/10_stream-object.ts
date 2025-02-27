@@ -16,7 +16,11 @@ const { partialObjectStream } = streamObject({
   prompt: 'Generate a lasagna recipe.'
 })
 
+console.log('--------------------------------')
+
 for await (const partialObject of partialObjectStream) {
   console.clear()
   console.log(partialObject)
 }
+
+console.log('\n--------------------------------')

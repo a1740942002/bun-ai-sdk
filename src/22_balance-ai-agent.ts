@@ -19,9 +19,13 @@ async function main() {
     prompt: `What is the balance of ${address}? (ether)`
   })
 
+  console.log('--------------------------------')
+
   for await (const textPart of result.textStream) {
     process.stdout.write(textPart)
   }
+
+  console.log('\n--------------------------------')
 }
 
 main()

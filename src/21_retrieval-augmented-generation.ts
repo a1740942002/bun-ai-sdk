@@ -65,9 +65,13 @@ async function main() {
              Question: ${input}`
   })
 
+  console.log('--------------------------------')
+
   for await (const textPart of result.textStream) {
     process.stdout.write(textPart)
   }
+
+  console.log('\n--------------------------------')
 }
 
 main().catch(console.error)

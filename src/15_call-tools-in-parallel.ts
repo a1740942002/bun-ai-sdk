@@ -39,6 +39,10 @@ const result = await streamText({
     'What is the weather in San Francisco and what attractions should I visit?'
 })
 
+console.log('--------------------------------')
+
 for await (const textPart of result.textStream) {
   process.stdout.write(textPart)
 }
+
+console.log('\n--------------------------------')

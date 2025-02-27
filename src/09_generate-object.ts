@@ -21,4 +21,6 @@ const result = await generateObject({
   prompt: 'Generate a laszagna recipe.'
 })
 
+console.log('--------------------------------')
 console.log(JSON.stringify(result.object.recipe, null, 2))
+console.log('--------------------------------')

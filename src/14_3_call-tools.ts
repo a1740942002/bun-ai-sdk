@@ -42,7 +42,9 @@ async function main() {
     }
   }
 
+  console.log('--------------------------------')
   console.log(JSON.stringify(result, null, 2))
+  console.log('--------------------------------')
 }
 
 main().catch(console.error)
