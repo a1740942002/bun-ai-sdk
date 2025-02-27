@@ -4,6 +4,7 @@ import { openai } from '@ai-sdk/openai'
 import { streamText } from 'ai'
 import 'dotenv/config'
 import fs from 'node:fs'
+import path from 'node:path'
 
 async function main() {
   const result = streamText({
@@ -14,11 +15,13 @@ async function main() {
         content: [
           {
             type: 'text',
-            text: 'What is an embedding model according to this document?'
+            text: 'What is XY Finance?'
           },
           {
             type: 'file',
-            data: fs.readFileSync('./data/ai.pdf'),
+            data: fs.readFileSync(
+              path.join(__dirname, '../assets/xy-finance-overview.pdf')
+            ),
             mimeType: 'application/pdf'
           }
         ]
