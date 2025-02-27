@@ -4,7 +4,7 @@ import { streamText } from 'ai'
 import { openai } from '@ai-sdk/openai'
 
 const result = streamText({
-  model: openai('gpt-3.5-turbo'),
+  model: openai('gpt-4o'),
   maxTokens: 1024,
   system: 'You are a helpful chatbot.',
   messages: [

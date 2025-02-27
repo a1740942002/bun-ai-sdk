@@ -6,7 +6,7 @@ import 'dotenv/config'
 
 async function main() {
   const result = await streamText({
-    model: openai('gpt-4-turbo'),
+    model: openai('gpt-4o'),
     maxTokens: 512,
     messages: [
       {
@@ -14,12 +14,12 @@ async function main() {
         content: [
           {
             type: 'text',
-            text: 'what are the red things in this image?'
+            text: 'what are the red thing in this image?'
           },
           {
             type: 'image',
             image: new URL(
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2024_Solar_Eclipse_Prominences.jpg/720px-2024_Solar_Eclipse_Prominences.jpg'
+              'https://i.ebayimg.com/images/g/4roAAOSwVNhnPmAj/s-l1600.webp'
             )
           }
         ]
