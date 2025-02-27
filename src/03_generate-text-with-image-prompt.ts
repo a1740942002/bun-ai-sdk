@@ -25,4 +25,6 @@ const result = await generateText({
   ]
 })
 
+console.log('--------------------------------')
 console.log(result)
+console.log('--------------------------------')
