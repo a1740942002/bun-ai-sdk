@@ -7,7 +7,7 @@ import fs from 'node:fs'
 
 async function main() {
   const result = streamText({
-    model: openai('gpt-4-turbo'),
+    model: openai('gpt-4o'),
     messages: [
       {
         role: 'user',

@@ -7,13 +7,13 @@ import { z } from 'zod'
 
 async function main() {
   const { text: rawOutput } = await generateText({
-    model: openai('o1'),
+    model: openai('gpt-4o'),
     prompt:
       'Predict the top 3 largest city by 2050. For each, return the name, the country, the reason why it will on the list, and the estimated population in millions.'
   })
 
   const { object } = await generateObject({
-    model: openai('gpt-4o-mini'),
+    model: openai('gpt-4o'),
     prompt: 'Extract the desired information from this text: \n' + rawOutput,
     schema: z.object({
       name: z.string().describe('the name of the city'),
